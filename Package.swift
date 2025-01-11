@@ -14,10 +14,10 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/horizontalsystems/BitcoinCore.Swift.git", .upToNextMajor(from: "3.0.0")),
-        .package(url: "https://github.com/horizontalsystems/Hodler.Swift.git", .upToNextMajor(from: "2.0.1")),
-        .package(url: "https://github.com/horizontalsystems/HdWalletKit.Swift.git", .upToNextMajor(from: "1.2.1")),
-        .package(url: "https://github.com/horizontalsystems/HsToolKit.Swift.git", .upToNextMajor(from: "2.0.5")),
+        .package(url: "https://github.com/just-software-dev/BitcoinCore.Swift.git", .upToNextMajor(from: "3.0.0")),
+        .package(url: "https://github.com/just-software-dev/Hodler.Swift.git", .upToNextMajor(from: "2.0.1")),
+        .package(url: "https://github.com/just-software-dev/HdWalletKit.Swift.git", .upToNextMajor(from: "1.2.1")),
+        .package(url: "https://github.com/just-software-dev/HsToolKit.Swift.git", .upToNextMajor(from: "2.0.5")),
     ],
     targets: [
         .target(
